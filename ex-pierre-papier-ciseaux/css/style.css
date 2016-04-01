@@ -1,0 +1,86 @@
+body {
+margin: 12px auto;
+max-width: 50%;
+width: 100%;
+
+background-color: gray;
+
+font-family: 'Aria', sans-serif;
+}
+.gagner, .defait, .pourcentage {
+  padding:50px;
+
+  font-size: 17px;
+}
+.gagner{
+  left: 125px;
+
+  background-color: blue;
+
+  color: white;
+}
+.defait {
+  left: 270px;
+
+  background-color: red;
+
+  color: black;
+}
+.pourcentage {
+  left: 430px;
+
+  background-color: darkgray;
+
+  color: green;
+}
+.titre {
+  width: 100%;
+
+  font-size: 57px;
+  color: #313638;
+}
+.gagner, .defait, .pourcentage, .armeUtilisateur, .contre, .armeOrdi, .bouton, .alignG, .alignD, .pourCent {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+
+  text-align: center;
+}
+.armeUtilisateur {
+  width: 25%;
+  padding: 17px;
+  margin-left: 50px;
+
+  font-size: 47px;
+}
+.contre {
+  width: 12%;
+
+  font-size: 29px;
+}
+.armeOrdi {
+  width: 20%;
+  padding: 17px;
+
+  background-color: darkblue;
+
+  font-size: 47px;
+  color: #fff;
+}
+.bouton {
+  width: 20%;
+  padding: 17px;
+  margin-top: 8px;
+  margin-left: 50px;
+
+  font-size: 27px;
+}
+.alignG, .alignD {
+  width: 27%;
+}
+.alignG {
+  margin-left: 50px;
+}
+.pourCent {
+  width: 38%
+}
